@@ -1,0 +1,47 @@
+/* Style for the timesheet input table */
+#form {
+    border-collapse: collapse; /* Ensures borders are collapsed into a single border */
+    width: 100%; /* Makes the table take up the full width of its container */
+}
+
+/* Style for table headers and cells */
+#form th, #form td {
+    border: 1px solid #dddddd; /* Adds a light grey border to headers and cells */
+    padding: 8px; /* Adds space inside the cells */
+    text-align: left; /* Aligns text to the left inside the cells */
+}
+
+/* Style for table headers */
+#form th {
+    background-color: #f2f2f2; /* Adds a light grey background to the headers */
+    font-weight: bold; /* Makes the text bold in the headers */
+}
+
+/* Optional: Add a border around the entire input table */
+#form {
+    border: 2px solid #000000; /* Adds a black border around the entire table */
+}
+
+/* Style for the submitted data table */
+#submittedData {
+    border-collapse: collapse; /* Ensures borders are collapsed into a single border */
+    width: 100%; /* Makes the table take up the full width of its container */
+}
+
+/* Style for table headers and cells in submitted data table */
+#submittedData th, #submittedData td {
+    border: 1px solid #dddddd; /* Adds a light grey border to headers and cells */
+    padding: 8px; /* Adds space inside the cells */
+    text-align: left; /* Aligns text to the left inside the cells */
+}
+
+/* Style for table headers in submitted data table */
+#submittedData th {
+    background-color: #f2f2f2; /* Adds a light grey background to the headers */
+    font-weight: bold; /* Makes the text bold in the headers */
+}
+
+/* Optional: Add a border around the entire submitted data table */
+#submittedData {
+    border: 2px solid #000000; /* Adds a black border around the entire table */
+}
